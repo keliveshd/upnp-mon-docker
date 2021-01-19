@@ -1,6 +1,6 @@
 FROM alpine:3.12.3
 
-MAINTAINER evilek <evilek@qq.com>
+LABEL maintainer evilek <evilek@qq.com>
 
 RUN apk update \
         && apk upgrade \
